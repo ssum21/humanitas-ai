@@ -1,0 +1,40 @@
+# 환경 변수
+.env
+.env.local
+.env.*.local
+
+# 의존성 디렉토리
+node_modules/
+
+# 로그 파일
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 운영체제 파일
+.DS_Store
+Thumbs.db
+
+# IDE 설정
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 빌드 결과물
+/dist
+/build
+/out
+
+# 임시 파일
+*.tmp
+*.temp
+.cache/
+
+# 테스트 커버리지
+coverage/
+
+# API 키와 관련된 설정 파일
+config.local.js
+apiKeys.js
